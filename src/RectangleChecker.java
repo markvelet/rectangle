@@ -5,14 +5,14 @@ public class RectangleChecker {
     {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter x coordinate: ");
+        System.out.println("Enter x coordinate: ");
         int x = input.nextInt();
-        System.out.print("Enter y coordinate: ");
+        System.out.println("Enter y coordinate: ");
         int y = input.nextInt();
 
-        System.out.print("Enter width: ");
+        System.out.println("Enter width: ");
         int width  = input.nextInt();
-        System.out.print("Enter height: ");
+        System.out.println("Enter height: ");
         int height = input.nextInt();
 
         BetterRectangle creatingRectangles = new BetterRectangle(x,y,width,height);
@@ -20,7 +20,7 @@ public class RectangleChecker {
         double rectangleArea = creatingRectangles.getArea();
         double rectanglePerimeter = creatingRectangles.getPerimeter();
 
-        System.out.printf("The perimeter of a rectangle is: %2.1f",rectanglePerimeter);
+        System.out.printf("The perimeter of the rectangle is: %2.1f",rectanglePerimeter);
         System.out.printf("\nThe area of the rectangle is: %2.1f",rectangleArea);
 
     }
