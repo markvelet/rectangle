@@ -21,7 +21,7 @@ public class RectangleChecker {
         double rectanglePerimeter = creatingRectangles.getPerimeter();
 
         System.out.printf("The perimeter of the rectangle is: %2.1f",rectanglePerimeter);
-        System.out.printf("\nThe area of the rectangle is: %2.1f",rectangleArea);
+        System.out.printf("\nThe area of the rectangle is: %2.1f\n",rectangleArea);
 
     }
 }
